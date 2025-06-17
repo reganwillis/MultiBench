@@ -12,7 +12,6 @@ from torch.nn import functional as F
 sys.path.append(os.getcwd())
 
 import torch
-import torchtext as text
 from collections import defaultdict
 from torch.nn.utils.rnn import pad_sequence
 from torch.utils.data import DataLoader, Dataset
